@@ -1,0 +1,72 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.cards{
+    /* yonma yon qilish */
+    display: flex;
+    /* ustun holatiga otkazish */
+    flex-direction: column;
+    /* teskari ustun holatiga otkazish */
+    flex-direction: row;
+    /* sigmay qolagan element larniyangi qatordan joylash tiradi */
+    flex-wrap: wrap;
+    /* teskari sigmay qolagan element larniyangi qatordan joylash tiradi */
+    flex-wrap: wrap-reverse;
+    /* defual holati */
+    justify-content: baseline;
+    /* weidht boyicha ortaga olib keladi */
+    justify-content: center;
+    /* weidht boyicha ohiriga olib keladi */
+    justify-content: end;
+    /* weidht boyicha boshiga olib keladi */
+    justify-content: start;
+    /* har bir elementdan teng joy tashlaydi */
+    justify-content: space-around;
+    /* faqat orasidan joy tashaydi */
+    justify-content: space-between;
+    /* barcha oraliqlardan teng joy tashaydi */
+    justify-content: space-evenly;
+    gap: 20px;
+    height: 100vh;
+    /* height boyicha ortaga olib keladi */
+    align-items: center;
+    /* height boyicha pastga olib keladi */
+    align-items: end;
+    /* height boyicha yuqoriga olib keladi */
+    align-items: start;
+}
+
+.card{
+    width: 300px;
+    height: 300px;
+    font-size: 30px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: red;
+}
+
+.box3{
+    order: 1;
+}
+
+.box2{
+    order: 5;
+    flex-shrink: 1;
+}
+
+.box1{
+    order: 2;
+}
+
+.box4{
+    order: 3;
+}
+
+.box5{
+    order: 4;
+}

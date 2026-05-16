@@ -1,0 +1,59 @@
+/* Embed */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Kaithi&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+p{
+      font-family: "Noto Sans Kaithi", sans-serif;
+
+}
+h1{
+    font-family: "Playpen Sans Arabic", cursive;
+}
+span{
+    font-family: cursive;
+}
+.cards{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 40px;
+    background-color: aqua;
+}
+.card{
+    width: 200px;
+    height: 200px;
+    background-color: red;
+}
+.card2{
+    position: absolute;
+    width: 200px;
+    height: 200px;
+}
+/* button{
+   
+    box-shadow: 0px 0px 40px 5px red;
+}
+center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 40px;
+    padding: 60px;
+}
+button::before{
+    content: "⭐";
+    font-weight: 800;
+    margin-left: -20px;
+    
+}
+button:hover{
+    background-color: red;
+    box-shadow: 3px 5px 40px 5px black;
+} */
